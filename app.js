@@ -4,6 +4,7 @@ const contactRoutes = require('./routes/contactRoutes');
 const commentRoutes = require('./routes/commentRoutes.js'); 
 const { connectDB } = require('./database');
 const cors = require('cors');
+require('dotenv').config();
 
 const app = express();  // Create an instance of Express
 
